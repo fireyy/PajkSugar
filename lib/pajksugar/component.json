@@ -5,6 +5,7 @@
     "zepto",
     "analytics",
     "preloader",
-    "page-slider"
+    "page-slider",
+    "api"
   ]
 }
