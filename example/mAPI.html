@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>API 请求</title>
+    <script src="../build.js"></script>
+</head>
+<body>
+
+<script>
+    $(document).ready(function(){
+
+        //=========初始化=========
+        var pajkApi = new PajkSugar.Api();
+
+        //完整请求
+        pajkApi.request({
+            "level": "UserLogin",
+            "setting": {
+                "data": {
+                    "_mt": "sims.testapi"
+                },
+                "success": function(data){
+                    console.log(data);
+                }
+            }
+        });
+
+        //快捷方式
+        pajkApi.getApi({
+            "_mt": "sims.testapi"
+        },function(data){
+            console.log(data);
+        });
+
+    })
+</script>
+
+</body>
+</html>

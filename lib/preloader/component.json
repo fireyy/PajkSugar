@@ -1,0 +1,8 @@
+{
+  "description": "PajkSugar Resource Loader base PxLoader",
+  "author": "Pixel Lab <http://thinkpixellab.com/pxloader/>",
+  "scripts": [
+    "PxLoader.js",
+    "PxLoaderImage.js"
+  ]
+}

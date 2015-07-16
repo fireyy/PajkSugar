@@ -1,0 +1,5 @@
+{
+  "name": "PajkSugar",
+  "locals": ["pajksugar"],
+  "paths": ["lib"]
+}

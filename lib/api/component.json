@@ -1,0 +1,6 @@
+{
+  "description": "PajkSugar api request",
+  "scripts": [
+    "index.js"
+  ]
+}
