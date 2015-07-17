@@ -14,7 +14,7 @@ npm install -g component
 npm install
 ```
 
-运行服务
+运行服务，动态生成 `build.js` 查看 example
 
 ```
 node server.js
