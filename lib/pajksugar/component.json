@@ -3,9 +3,9 @@
   "locals": [
     "underscore",
     "zepto",
-    "analytics",
+    "pajklogger",
     "preloader",
-    "page-slider",
+    "pageslider",
     "api"
   ]
 }

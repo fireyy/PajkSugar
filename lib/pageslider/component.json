@@ -1,0 +1,7 @@
+{
+  "description": "PageSlider -- 移动端滑屏组件",
+  "author": "littledu <https://github.com/littledu/PageSlider>",
+  "scripts": [
+    "index.js"
+  ]
+}

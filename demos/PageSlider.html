@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>滑屏组件</title>
+    <script src="../build.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html, body, .page-wrap {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .page {
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            -webkit-perspective: 1000;
+        }
+    </style>
+</head>
+<body>
+  <div class="page-wrap">
+      <div class="page">
+          <div class="title">page one</div>
+          <div class="subtitle">page one subtitle</div>
+          <div class="arrow"></div>
+      </div>
+
+      <div class="page">
+          <div class="title">page two</div>
+          <div class="subtitle">page two subtitle</div>
+          <div class="arrow"></div>
+      </div>
+      <div class="page">
+          <div class="title">page three</div>
+          <div class="subtitle">page three subtitle</div>
+          <div class="arrow"></div>
+      </div>
+      <div class="page">
+          <div class="title">page four</div>
+          <div class="subtitle">page four subtitle</div>
+      </div>
+  </div>
+
+<script>
+    $(document).ready(function(){
+
+        var pageSlider = new PajkSugar.PageSlider({
+            pages: $('.page-wrap .page')
+        });
+    });
+</script>
+
+</body>
+</html>

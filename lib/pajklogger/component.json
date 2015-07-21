@@ -1,0 +1,6 @@
+{
+  "description": "PajkSugar 统计:  使用 pajk_beacon.js 打点统计",
+  "scripts": [
+    "index.js"
+  ]
+}
