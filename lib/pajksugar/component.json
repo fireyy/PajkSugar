@@ -6,6 +6,7 @@
     "pajklogger",
     "preloader",
     "pageslider",
-    "api"
+    "api",
+    "modal"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "description": "PajkSugar Modal box",
+  "description": "basicModal - Easy-to-use dialog system for modern web-apps.",
+  "author": "Tobias Reich <https://github.com/electerious/basicModal>",
   "scripts": [
     "index.js"
-  ]
+  ],
+  "styles": ["index.css"]
 }
